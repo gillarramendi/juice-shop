@@ -9,7 +9,6 @@ async function app () {
 
   const server = await import('./server')
   await server.start()
-  
 }
 
 app()
